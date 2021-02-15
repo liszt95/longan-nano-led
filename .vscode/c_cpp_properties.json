@@ -1,0 +1,57 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/Liszt/Documents/PlatformIO/Projects/210125-142435-longan-nano-blink/include",
+                "c:/Users/Liszt/Documents/PlatformIO/Projects/210125-142435-longan-nano-blink/src",
+                "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_standard_peripheral",
+                "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_standard_peripheral/Include",
+                "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_usbfs_driver",
+                "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_usbfs_driver/Include",
+                "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/RISCV/drivers",
+                "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/RISCV/env_Eclipse",
+                "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/RISCV/stubs",
+                "C:/Users/Liszt/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/Liszt/Documents/PlatformIO/Projects/210125-142435-longan-nano-blink/include",
+                    "c:/Users/Liszt/Documents/PlatformIO/Projects/210125-142435-longan-nano-blink/src",
+                    "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_standard_peripheral",
+                    "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_standard_peripheral/Include",
+                    "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_usbfs_driver",
+                    "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/GD32VF103_usbfs_driver/Include",
+                    "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/RISCV/drivers",
+                    "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/RISCV/env_Eclipse",
+                    "C:/Users/Liszt/.platformio/packages/framework-gd32vf103-sdk/RISCV/stubs",
+                    "C:/Users/Liszt/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50100",
+                "USE_STDPERIPH_DRIVER",
+                "HXTAL_VALUE=8000000U",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compilerPath": "C:/Users/Liszt/.platformio/packages/toolchain-gd32v/bin/riscv-nuclei-elf-gcc.exe",
+            "compilerArgs": [
+                "-march=rv32imac",
+                "-mabi=ilp32",
+                "-mcmodel=medlow",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
